@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/resp.css">
+    <script src="https://kit.fontawesome.com/a2a1892a45.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#home"> Real<span>Estate</span></a>
+            </div>
+            <button id="nav-toggle" class="hamburger-menu">
+                <span class="strip"></span>
+                <span class="strip"></span>
+                <span class="strip"></span>
+            </button>
+            <ul class="nav-list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#properties">Properties</a></li>
+                <li><a href="#agents">Agents</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="close-flyout"><i class="fa fa-times"></i></li>
+            </ul>
+        </nav>
+        <section id="home">
+            <div class="fade"></div>
+            <div class="home-container">
+                <div id="home-heading">
+                    <h1 class="primary-heading">Buy, Sell and Explore...</h1>
+                    <h3 class="sub-heading">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa eum nesciunt
+                        inventore unde.Corrupti odio odit quis
+                        ea aperiam facere animi.</h3>
+                </div>
+                <div class="searchBar">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="search" name="search" id="search" placeholder="Enter the name of city...">
+                    <button type="submit" class="btn-primary">Search</button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section id="howItWorks">
+        <h2>How It Works</h2>
+        <div class="flex howItWorks-containers ">
+            <div><span class="fas fa-home"></span>
+                <h4>Find a property.</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci, unde placeat</p>
+            </div>
+            <div>
+                <span class="fas fa-dollar-sign"></span>
+                <h4>Buy a property.</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci, unde placeat</p>
+            </div>
+            <div>
+                <span class="fas fa-chart-line"></span>
+                <h4>Investing.</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci, unde placeat</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="properties">
+        <div class="property-container">
+            <h2>Properties</h2>
+            <div id="property-slider" class="slick">
+                <div>
+                    <img src="https://onclickwebdesign.com/wp-content/uploads/property_1.jpg" alt="Property 1" />
+                    <div class="property-details">
+                        <p class="price">$3,80,000</p>
+                        <span class="beds">4 beds</span>
+                        <span class="baths">4 baths</span>
+                        <span class="sqft">3,250 sqft.</span>
+                        <address>480 12th, Unit 14, San Francisco, CA</address>
+                    </div>
+                </div>
+                <div>
+                    <img src="https://onclickwebdesign.com/wp-content/uploads/property_2.jpg" alt="Property 1" />
+                    <div class="property-details">
+                        <p class="price">$4,40,000</p>
+                        <span class="beds">5 beds</span>
+                        <span class="baths">3 baths</span>
+                        <span class="sqft">6,250 sqft.</span>
+                        <address>480 12th, Unit 14, San Francisco, CA</address>
+                    </div>
+                </div>
+                <div>
+                    <img src="https://onclickwebdesign.com/wp-content/uploads/property_3.jpg" alt="Property 1" />
+                    <div class="property-details">
+                        <p class="price">$3,40,000</p>
+                        <span class="beds">6beds</span>
+                        <span class="baths">4baths</span>
+                        <span class="sqft">4,250 sqft.</span>
+                        <address>480 12th, Unit 14, San Francisco, CA</address>
+                    </div>
+                </div>
+                <div>
+                    <img src="https://onclickwebdesign.com/wp-content/uploads/property_4.jpg" alt="Property 1" />
+                    <div class="property-details">
+                        <p class="price">$3,40,000</p>
+                        <span class="beds">6beds</span>
+                        <span class="baths">4baths</span>
+                        <span class="sqft">4,250 sqft.</span>
+                        <address>480 12th, Unit 14, San Francisco, CA</address>
+                    </div>
+                </div>
+                <div>
+                    <img src="https://onclickwebdesign.com/wp-content/uploads/property_1.jpg" alt="Property 1" />
+                    <div class="property-details">
+                        <p class="price">$3,20,000</p>
+                        <span class="beds">6 beds</span>
+                        <span class="baths">4 aths</span>
+                        <span class="sqft">4,850 sqft.</span>
+                        <address>480 12th, Unit 14, San Francisco, CA</address>
+                    </div>
+                </div>
+            </div>
+            <button class="rounded">View All Property Listings</button>
+        </div>
+    </section>
+    <section id="agents">
+        <div class="agents-container">
+            <h2>Agents</h2>
+            <p class="agents-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita, delectus, quam
+                aut, ipsa fuga iure ad facilis </p>
+            <div class="flex">
+                <div class="card">
+                    <img src="https://onclickwebdesign.com/wp-content/uploads/person_1.jpg" alt="Agent">
+                    <h3 class="card-h3">kaira sharma</h3>
+                    <p class="card-p">Real Estate Agent</p>
+                </div>
+                <div class="card">
+                    <img src="https://onclickwebdesign.com/wp-content/uploads/person_2.jpg" alt="Agent">
+                    <h3 class="card-h3">kaira sharma</h3>
+                    <p class="card-p">Real Estate Agent</p>
+                </div>
+                <div class="card">
+                    <img src="https://onclickwebdesign.com/wp-content/uploads/person_3.jpg" alt="Agent">
+                    <h3 class="card-h3">kaira sharma</h3>
+                    <p class="card-p">Real Estate Agent</p>
+                </div>
+                <div class="card">
+                    <img src="https://onclickwebdesign.com/wp-content/uploads/person_4.jpg" alt="Agent">
+                    <h3 class="card-h3">kaira sharma</h3>
+                    <p class="card-p">Real Estate Agent</p>
+                </div>
+                <div class="card">
+                    <img src="https://onclickwebdesign.com/wp-content/uploads/person_5.jpg" alt="Agent">
+                    <h3 class="card-h3">kaira sharma</h3>
+                    <p class="card-p">Real Estate Agent</p>
+                </div>
+                <div class="card">
+                    <img src="https://onclickwebdesign.com/wp-content/uploads/person_6.jpg" alt="Agent">
+                    <h3 class="card-h3">kaira sharma</h3>
+                    <p class="card-p">Real Estate Agent</p>
+                </div>
+                <div class="card">
+                    <img src="https://onclickwebdesign.com/wp-content/uploads/person_7.jpg" alt="Agent">
+                    <h3 class="card-h3">kaira sharma</h3>
+                    <p class="card-p">Real Estate Agent</p>
+                </div>
+                <div class="card">
+                    <img src="https://onclickwebdesign.com/wp-content/uploads/person_8.jpg" alt="Agent">
+                    <h3 class="card-h3">kaira sharma</h3>
+                    <p class="card-p">Real Estate Agent</p>
+                </div>
+                <div class="card card-last">
+                    <img src="https://onclickwebdesign.com/wp-content/uploads/person_1.jpg" alt="Agent">
+                    <h3 class="card-h3">kaira sharma</h3>
+                    <p class="card-p">Real Estate Agent</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-container">
+            <img src="https://onclickwebdesign.com/wp-content/uploads/property_4.jpg" alt="About">
+            <div class="about-container-text">
+                <h2>We Are The Best Real Estate Company</h2>
+                <h4>Lorem ipsum dolor sit amet consectetur assumenda officia adipisicing elit.</h4>
+                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem repellendus mollitia, sequi,
+                    magnam dicta assumenda officia minus earum harum.</h5>
+                <ul>
+                    <li>Placeat maxime animi minus</li>
+                    <li>Placeat maxime animi minus</li>
+                    <li>Placeat maxime animi minus</li>
+                    <li>Placeat maxime animi minus</li>
+                    <li>Placeat maxime animi minus</li>
+                </ul>
+                <button class="rounded">Learn more</button>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="services">
+        <div class="services-container">
+            <h2>Services</h2>
+            <div class="flex">
+                <div>
+                    <div class="fas fa-home"></div>
+                    <div class="service-container-box-text">
+                        <h3>Search Property</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur elit. Perferendis quis molestiae vitae
+                            eligendi at.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+                <div>
+                    <div class="fas fa-dollar-sign"></div>
+                    <div class="service-container-box-text">
+                        <h3>Buy Property</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur elit. Perferendis quis molestiae vitae
+                            eligendi at.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+                <div>
+                    <div class="fas fa-chart-line"></div>
+                    <div class="service-container-box-text">
+                        <h3>Investing</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur elit. Perferendis quis molestiae vitae
+                            eligendi at.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+                <div>
+                    <div class="fas fa-building"></div>
+                    <div class="service-container-box-text">
+                        <h3>List a Property</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur elit. Perferendis quis molestiae vitae
+                            eligendi at.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+                <div>
+                    <div class="fas fa-search"></div>
+                    <div class="service-container-box-text">
+                        <h3>Property Locator</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur elit. Perferendis quis molestiae vitae
+                            eligendi at.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+                <div>
+                    <div class="fas fa-mobile-alt"></div>
+                    <div class="service-container-box-text">
+                        <h3>Stated Apps</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur elit. Perferendis quis molestiae vitae
+                            eligendi at.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <div class="testimonials-container">
+            <h2>What Our Clients Are Saying</h2>
+            <div class="testimonials-slider">
+                <div>
+                    <blockquote>
+                        <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nostrum vitae explicabo
+                            dolore ratione. Quia molestiae iure quod ipsa blanditiis sint molestiae nulla a nam
+                            veritatis ex eos.
+                            Dicta
+                            molestiae dolorum laudantium."</p>
+                    </blockquote>
+                    <div class="testimonials-caption">
+                        <img src="https://onclickwebdesign.com/wp-content/uploads/person_5.jpg" alt="Agent">
+                        <span>Benjamin stone</span>
+                    </div>
+                </div>
+                <div>
+                    <blockquote>
+                        <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nostrum vitae explicabo
+                            dolore ratione. Quia molestiae iure quod ipsa blanditiis sint molestiae nulla a nam
+                            veritatis ex eos.
+                            Dicta
+                            molestiae dolorum laudantium."</p>
+                    </blockquote>
+                    <div class="testimonials-caption">
+                        <img src="https://onclickwebdesign.com/wp-content/uploads/person_6.jpg" alt="Agent">
+                        <span>Nikhil Patel</span>
+                    </div>
+                </div>
+                <div>
+                    <blockquote>
+                        <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nostrum vitae explicabo
+                            dolore ratione. Quia molestiae molestiaeiure quod ipsa blanditiis sint nulla a nam veritatis
+                            ex eos.
+                            Dicta
+                            molestiae dolorum laudantium."</p>
+                    </blockquote>
+                    <div class="testimonials-caption">
+                        <img src="https://onclickwebdesign.com/wp-content/uploads/person_7.jpg" alt="Agent">
+                        <span>Sahil Sharma</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="contact-container">
+            <h2>Contact Us</h2>
+            <div class="flex">
+                <div class="form-container">
+                    <h3>Contact Form</h3>
+                    <form>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name">
+
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+
+                        <label for="number">Name</label>
+                        <input type="tel" name="" id="number">
+
+                        <label for="textarea">Message</label>
+                        <textarea name="" id="textarea" cols="30" rows="10"
+                            placeholder="Write your message here..."></textarea>
+
+                        <button type="submit" class="rounded">Submit</button>
+                    </form>
+                </div>
+
+                <div class="address-container">
+                    <label for="address">Address:</label>
+                    <address id="address">
+                        20377 Evergreen Terrace Mountain View, California, USA
+                    </address>
+
+                    <label for="phone">Phone:</label>
+                    <a href="#">+200 477 377</a>
+
+                    <label for="email">Email:</label>
+                    <a href="#">ouremail@domain.com</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="flex footer-container">
+            <div class="footer-about">
+                <h5>About Stated</h5>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. architecto porro illum rem
+                    voluptates. Eius corrupti accusantium
+                    odio similique vitae pariatur!</p>
+            </div>
+            <div class="footer-quickLinks">
+                <h5>Quick Links</h5>
+                <ul>
+                    <li><a href="#agents">Agents</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#properties">Properties</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-subscribe">
+                <h5>Subscribe To Our Newsletter</h5>
+                <div class="subscribe-input">
+                    <input type="email" name="email" id="email" placeholder="Enter Email">
+                    <button type="submit" class="rigth-rounded">Send</button>
+                </div>
+                <h5 class="follow-us">Follow us</h5>
+                <ul>
+                    <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+                    <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+                    <li><a href="#"><span class="fab fa-instagram"></span></a></li>
+                    <li><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
+                </ul>
+            </div>
+        </div>
+        <small>
+            Copyright &copy; 2022 All right reserved. | <span class="fa fa-heart"></span> <a
+                href="https://colorlib.com">Colorlib</a>
+        </small>
+    </footer>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
