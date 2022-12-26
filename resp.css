@@ -333,6 +333,8 @@
     padding: 20px;
   }
 
+  /* home styling starts */
+
   .home-container {
     width: 100%;
     height: 20%;
@@ -360,6 +362,10 @@
     width: 22%;
   }
 
+  .searchBar i {
+    top: 29px;
+    left: 14px;
+  }
   /* How It works styling starts */
 
   #howItWorks h2 {
@@ -385,6 +391,9 @@
 
   /* Properties styling starts */
 
+  .property-container {
+    margin-top: 1rem;
+  }
   .property-container h2 {
     margin-bottom: 2rem;
   }
@@ -429,8 +438,11 @@
   /* About styling starts */
 
   .about-container-text h2 {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     margin-top: 1.5rem;
+  }
+  .about-container {
+    margin-bottom: 1rem;
   }
 
   /* Services styling starts */
@@ -475,6 +487,7 @@
 
   .contact-container h2 {
     margin-bottom: 1rem;
+    font-size: 1.4rem;
   }
   .form-container h3 {
     display: none;
