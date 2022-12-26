@@ -87,4 +87,5 @@ $(function () {
   });
 
   $(document).trigger("scroll");
+  navlist.find("a").on("click", () => navlist.css("right", "-100%"));
 });
