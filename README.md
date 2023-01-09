@@ -1,4 +1,4 @@
-Website URL: https://mihirpatelmp.github.io/Real-Estate/ 
+
 
 In this website, I have created the skeleton using HTML and styled using CSS. 
 It is made with the consideration of responsiveness so it works on all kind of devices.
